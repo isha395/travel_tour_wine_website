@@ -1,0 +1,1405 @@
+/*header*/
+/*head-section*/
+body{
+	overflow-x:hidden;
+	
+}
+#head-section{
+	height:50px;
+	width:1250px;
+	box-shadow:0 3px 5px 0 #D3D3D3;
+}
+#contact-number{
+	position:relative;
+	left:20px;
+	top:10px;
+	color:#595959;
+}
+#email-address{
+	position:relative;
+	left:40px;
+	top:10px;
+	color:#595959;
+}
+#log-in{
+	position:relative;
+	left:660px;
+	top:10px;
+	color:#595959;
+}
+#sign-up{
+	position:relative;
+	left:680px;
+	top:10px;
+	color:#595959;
+}
+/*nav*/
+#navbar-logo{
+	height:50px;
+	width:176px;
+	background-image:url("../image_folder/logo.png");
+	background-size:cover;
+}
+#navbar-list ul li{
+	list-style-type:none;
+	display:inline-block;
+	cursor:pointer;
+	margin-right:20px;
+	position:relative;
+	left:600px;
+	bottom:55px;
+	font-size:15px;
+	font-family:sans-serif;
+	margin-right:25px;
+	color:#595959;
+}
+#search-icon{
+	position:relative;
+	left:1210px;
+	bottom:93px;
+}
+/*main-tag*/
+/*banner-section*/
+#banner-section{
+	height:700px;
+	width:1250px;
+	background-image:url("../image_folder/banner.jpg");
+	background-size:cover;
+	position:relative;
+	bottom:120px;
+}
+#maintext{
+	font-size:60px;
+	font-weight:bold;
+	font-family: 'DM sans';
+	color:#fff;
+	position:relative;
+	top:120px;
+	left:40px;
+	line-height:55px;
+}
+#subtext{
+	color:#fff;
+	position:relative;
+	left:55px;
+	top:80px;
+	font-size:20px;
+	font-family: 'DM sans';
+}
+#play-icon{
+	height:80px;
+	width:80px;
+	background-image:url("../image_folder/play-icon.png");
+	background-size:cover;
+	display:inline-block;
+	position:relative;
+	top:140px;
+	left:40px;
+}
+#date{
+	position:relative;
+	top:110px;
+	left:50px;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+}
+#down-icon{
+	height:40px;
+	width:40px;
+	background-image:url("../image_folder/down.png");
+	background-size:cover;
+	position:relative;
+	top:200px;
+	left:60px;
+}
+/*winery-tour-section*/
+#napavalley-heading{
+	font-size:40px;
+	font-weight:bold;
+	font-family: 'DM sans';
+	position:relative;
+	left:460px;
+	bottom:40px;
+}
+/*wineries-section*/
+#wineriestour-heading{
+	font-size:40px;
+	font-weight:bold;
+	font-family: 'DM sans';
+	position:relative;
+	bottom:40px;
+	left:60px;
+}
+#wineries-line{
+	width:50px;
+	border:2px solid #820000;
+	position:relative;
+	left:160px;
+	bottom:75px;
+}
+#wineries-content{
+	font-size:18px;
+	font-family:'arial';
+	font-weight:normal;
+	position:relative;
+	right:200px;
+	bottom:75px;
+	color:#595959;
+}
+#wineries-nextline{
+	font-size:18px;
+	font-family:'arial';
+	font-weight:normal;
+	position:relative;
+	bottom:85px;
+	color:#595959;
+}
+#premium-wines-section{
+	height:330px;
+	width:340px;
+	border:1px solid #D3D3D3;
+	border-radius:5px;
+	background-color:#fff;
+	position:relative;
+	left:60px;
+	bottom:30px;
+}
+#premium-wines-logo{
+	height:60px;
+	width:60px;
+	background-image:url("../image_folder/icon01.png");
+	background-size:cover;
+	position:relative;
+	left:135px;
+	top:30px;
+}
+#premium-wines-text{
+	position:relative;
+	left:80px;
+	top:40px;
+	font-family:'sans-serif';
+	font-weight:bold;
+	font-size:25px;
+	
+}
+#premium-wines-description{
+	color:#595959;
+	position:relative;
+	left:10px;
+	top:50px;
+	font-family:'arial';
+	font-weight:normal;
+}
+#premium-learnmore{
+	position:relative;
+	left:120px;
+	top:80px;
+	font-family:'arial';
+	font-weight:normal;
+	color:#820000;
+}
+#premium-wines-section:hover{
+	background-color:#fff;
+	box-shadow:0 2px 5px 0 #D3D3D3;
+	transition:0.3s;
+	transform:scale(1.1);
+}
+#guided-tours-section{
+	height:330px;
+	width:340px;
+	border:1px solid #D3D3D3;
+	border-radius:5px;
+	background-color:#fff;
+	position:relative;
+	left:440px;
+	bottom:362px;
+}
+#guided-tours-logo{
+	height:60px;
+	width:60px;
+	background-image:url("../image_folder/icon02.png");
+	background-size:cover;
+	position:relative;
+	left:135px;
+	top:30px;
+}
+#guided-tours-text{
+	position:relative;
+	left:90px;
+	top:40px;
+	font-family:'sans-serif';
+	font-weight:bold;
+	font-size:25px;
+	
+}
+#guided-tours-description{
+	color:#595959;
+	position:relative;
+	left:10px;
+	top:50px;
+	font-family:'arial';
+	font-weight:normal;
+}
+#guided-learnmore{
+	position:relative;
+	left:125px;
+	top:80px;
+	font-family:'arial';
+	font-weight:normal;
+	color:#820000;
+}
+#guided-tours-section:hover{
+	background-color:#fff;
+	box-shadow:0 2px 5px 0 #D3D3D3;
+	transition:0.3s;
+	transform:scale(1.1);
+}
+#winery-tour-section{
+	height:330px;
+	width:340px;
+	border:1px solid #D3D3D3;
+	border-radius:5px;
+	background-color:#fff;
+	position:relative;
+	left:830px;
+	bottom:693px;
+}
+#winery-tour-logo{
+	height:62px;
+	width:56px;
+	background-image:url("../image_folder/icon03.png");
+	background-size:cover;
+	position:relative;
+	left:135px;
+	top:30px;
+}
+#winery-tour-text{
+	position:relative;
+	left:90px;
+	top:40px;
+	font-family:'sans-serif';
+	font-weight:bold;
+	font-size:25px;
+	
+}
+#winery-tour-description{
+	color:#595959;
+	position:relative;
+	left:10px;
+	top:50px;
+	font-family:'arial';
+	font-weight:normal;
+}
+#winery-learnmore{
+	position:relative;
+	left:125px;
+	top:80px;
+	font-family:'arial';
+	font-weight:normal;
+	color:#820000;
+}
+#winery-tour-section:hover{
+	background-color:#fff;
+	box-shadow:0 2px 5px 0 #D3D3D3;
+	transition:0.3s;
+	transform:scale(1.1);
+}
+#picnic-lunch-section{
+	height:330px;
+	width:340px;
+	border:1px solid #D3D3D3;
+	border-radius:5px;
+	background-color:#fff;
+	position:relative;
+	bottom:650px;
+	left:60px;
+}
+#picnic-lunch-logo{
+	height:60px;
+	width:60px;
+	background-image:url("../image_folder/icon04.png");
+	background-size:cover;
+	position:relative;
+	left:135px;
+	top:30px;
+}
+#picnic-lunch-text{
+	position:relative;
+	left:80px;
+	top:40px;
+	font-family:'sans-serif';
+	font-weight:bold;
+	font-size:25px;
+	
+}
+#picnic-lunch-description{
+	color:#595959;
+	position:relative;
+	left:10px;
+	top:50px;
+	font-family:'arial';
+	font-weight:normal;
+}
+#picnic-learnmore{
+	position:relative;
+	left:120px;
+	top:80px;
+	font-family:'arial';
+	font-weight:normal;
+	color:#820000;
+}
+#picnic-lunch-section:hover{
+	background-color:#fff;
+	box-shadow:0 2px 5px 0 #D3D3D3;
+	transition:0.3s;
+	transform:scale(1.1);
+}
+#wine-tasting-section{
+	height:330px;
+	width:340px;
+	border:1px solid #D3D3D3;
+	border-radius:5px;
+	background-color:#fff;
+	position:relative;
+	left:440px;
+	bottom:982px;
+}
+#wine-tasting-logo{
+	height:60px;
+	width:60px;
+	background-image:url("../image_folder/icon05.png");
+	background-size:cover;
+	position:relative;
+	left:135px;
+	top:30px;
+}
+#wine-tasting-text{
+	position:relative;
+	left:90px;
+	top:40px;
+	font-family:'sans-serif';
+	font-weight:bold;
+	font-size:25px;
+	
+}
+#wine-tasting-description{
+	color:#595959;
+	position:relative;
+	left:10px;
+	top:50px;
+	font-family:'arial';
+	font-weight:normal;
+}
+#wine-learnmore{
+	position:relative;
+	left:125px;
+	top:80px;
+	font-family:'arial';
+	font-weight:normal;
+	color:#820000;
+}
+#wine-tasting-section:hover{
+	background-color:#fff;
+	box-shadow:0 2px 5px 0 #D3D3D3;
+	transition:0.3s;
+	transform:scale(1.1);
+}
+#grape-varieties-section{
+	height:330px;
+	width:340px;
+	border:1px solid #D3D3D3;
+	border-radius:5px;
+	background-color:#fff;
+	position:relative;
+	left:830px;
+	bottom:1312px;
+}
+#grape-varieties-logo{
+	height:62px;
+	width:56px;
+	background-image:url("../image_folder/icon06.png");
+	background-size:cover;
+	position:relative;
+	left:135px;
+	top:30px;
+}
+#grape-varieties-text{
+	position:relative;
+	left:90px;
+	top:40px;
+	font-family:'sans-serif';
+	font-weight:bold;
+	font-size:25px;
+	
+}
+#grape-varieties-description{
+	color:#595959;
+	position:relative;
+	left:10px;
+	top:50px;
+	font-family:'arial';
+	font-weight:normal;
+}
+#grape-learnmore{
+	position:relative;
+	left:125px;
+	top:80px;
+	font-family:'arial';
+	font-weight:normal;
+	color:#820000;
+}
+#grape-varieties-section:hover{
+	background-color:#fff;
+	box-shadow:0 2px 5px 0 #D3D3D3;
+	transition:0.3s;
+	transform:scale(1.1);
+}
+#wineries-destination-btn{
+	height:50px;
+	width:130px;
+	border:2px solid #820000;
+	color:#820000;
+	border-radius:8px;
+	background-color:#fff;
+	position:relative;
+	left:540px;
+	bottom:1250px;
+	font-size:15px;
+	font-family:'sans-serif';
+	text-align:center;
+	line-height:50px;
+}
+#wineries-destination-btn:hover{
+	background-color:#820000;
+	color:#fff;
+	transition:0.3s;
+}
+/*destination-section*/
+.destination-section{
+	height:600px;
+	width:1250px;
+	background-color:#F5FDFF;
+	position:relative;
+	bottom:1200px;
+}
+#destination-section-img{
+	height:600px;
+	width:550px;
+	background-image:url("../image_folder/kelsy.jpg");
+	background-size:cover;
+}
+#destination-heading{
+	font-size:25px;
+	font-weight:bold;
+	font-family: 'DM sans';
+	position:relative;
+	bottom:570px;
+	left:600px;
+}
+#destination-content{
+	font-size:18px;
+	font-family:'arial';
+	font-weight:normal;
+	position:relative;
+	bottom:560px;
+	left:600px;
+	color:#595959;
+	line-height:24px;
+}
+/*destination-tips*/
+.destination-tips{
+	display:inline-block;	
+	position:relative;
+	left:600px;
+	bottom:500px;
+	font-size:15px;
+	color:#595959;
+	font-family:'arial';
+}
+.tip{
+	display:flex;
+	align-items:center;
+	gap:10px;
+	margin-bottom:10px;
+}
+.tip span{
+	display:inline-block;
+}
+#hour-back{
+	height:20px;
+	width:20px;
+	border-radius:50%;
+	background-color:#820000;
+	background-image:url("../image_folder/down.png");
+	background-size:cover;
+	display:inline-block;
+}
+#learn-back{
+	height:20px;
+	width:20px;
+	border-radius:50%;
+	background-color:#820000;
+	background-image:url("../image_folder/down.png");
+	background-size:cover;
+	display:inline-block;
+}
+#transport-back{
+	height:20px;
+	width:20px;
+	border-radius:50%;
+	background-color:#820000;
+	background-image:url("../image_folder/down.png");
+	background-size:cover;
+	display:inline-block;
+}
+#hotel-back{
+	height:20px;
+	width:20px;
+	border-radius:50%;
+	background-color:#820000;
+	background-image:url("../image_folder/down.png");
+	background-size:cover;
+	display:inline-block;
+}
+#tour-list-btn{
+	height:50px;
+	width:130px;
+	color:#fff;
+	border-style:none;
+	border-radius:5px;
+	background-color:#820000;
+	position:relative;
+	left:365px;
+	bottom:400px;
+	font-size:15px;
+	font-family:'sans-serif';
+	text-align:center;
+	line-height:50px;
+}
+#tour-list-btn:hover{
+	background-color:white;
+	color:#820000;
+	border:1px solid #820000;
+	transition:0.3s;
+}
+/*winery-selection-tour*/
+#winery-selection-heading{
+	font-size:30px;
+	font-weight:bold;
+	font-family: 'DM sans';
+	position:relative;
+	left:340px;
+	bottom:1160px;
+}
+#selection-line{
+	width:50px;
+	border:2px solid #820000;
+	position:relative;
+	left:220px;
+}
+#california-content{
+	font-size:18px;
+	font-family:'arial';
+	font-weight:normal;
+	position:relative;
+	right:150px;
+	color:#595959;
+}
+#california-nextline{
+	font-size:18px;
+	font-family:'arial';
+	font-weight:normal;
+	position:relative;
+	left:30px;
+	bottom:10px;
+	color:#595959;
+}
+/*winery-tour*/
+.vineyard-wine{
+	height:460px;
+	width:340px;
+	border-radius:5px;
+	border:1px solid #D3D3D3;
+	position:relative;
+	bottom:1120px;
+	left:50px;
+	
+}
+#vineyard-img{
+	height:230px;
+	width:340px;
+	border-radius:5px;
+	background-image:url("../image_folder/nick.jpg");
+	background-size:cover;
+}
+.vineyard-details{
+	position:relative;
+	bottom:30px;
+}
+#vineyard-heading{
+	font-size:20px;
+	font-family:'DM sans';
+	font-weight:bold;
+	position:relative;
+	left:50px; 
+	bottom:35px;
+}
+#vineyard-timeicon{
+	height:55px;
+	width:55px;
+	background-image:url("../image_folder/time.png");
+	background-size:cover;
+	position:relative;
+	left:10px;
+	bottom:15px;
+	
+}
+#vineyard-calendar{
+	height:50px;
+	width:50px;
+	background-image:url("../image_folder/calendar.png");
+	background-size:cover;
+	position:relative;
+	left:10px;
+	bottom:50px;
+}
+#vineyard-time{
+	color:#616161;
+	font-size:15px;
+	font-family:'arial';
+	position:relative;
+	left:60px;
+	bottom:130px;
+}
+
+#review1-star{
+	position:relative;
+	left:25px;
+	bottom:130px;
+}
+#vineyard-review{
+	color:#616161;
+	font-size:13px;
+	font-family:'arial';
+	position:relative;
+	left:25px;
+	bottom:130px;
+}
+#vineyard-price{
+	color:#616161;
+	font-size:15px;
+	font-family:'arial';
+	position:relative;
+	left:270px;
+	bottom:190px;
+}
+#vineyard-line{
+	width:30px;
+	border:1px solid #616161;
+	position:relative;
+	left:271px;
+	bottom:215px;
+	color:#D3D3D3;
+}
+#vineyard-realrate{
+	color:#820000;
+	font-size:20px;
+	font-family:'arial';
+	font-weight:bold;
+	position:relative;
+	left:270px;
+	bottom:220px;
+}
+.vineyard-wine:hover{
+	box-shadow:0 2px 5px 0 #D3D3D3;
+	transition:0.3s;
+	transform:translateY(-10px);
+}
+.maremma-wine{
+	height:460px;
+	width:340px;
+	border-radius:5px;
+	border:1px solid #D3D3D3;
+	position:relative;
+	left:450px;
+	bottom:1580px;
+}
+#maremma-img{
+	height:230px;
+	width:340px;
+	border-radius:5px;
+	background-image:url("../image_folder/maremma.jpg");
+	background-size:cover;
+}
+.maremma-details{
+	position:relative;
+	bottom:30px;
+}
+#maremma-heading{
+	font-size:20px;
+	font-family:'DM sans';
+	font-weight:bold;
+	position:relative;
+	left:50px; 
+	bottom:35px;
+}
+#maremma-timeicon{
+	height:55px;
+	width:55px;
+	background-image:url("../image_folder/time.png");
+	background-size:cover;
+	position:relative;
+	left:10px;
+	bottom:15px;
+	
+}
+#maremma-calendar{
+	height:50px;
+	width:50px;
+	background-image:url("../image_folder/calendar.png");
+	background-size:cover;
+	position:relative;
+	left:10px;
+	bottom:50px;
+}
+#maremma-time{
+	color:#616161;
+	font-size:15px;
+	font-family:'arial';
+	position:relative;
+	left:60px;
+	bottom:130px;
+}
+
+#review2-star{
+	position:relative;
+	left:25px;
+	bottom:130px;
+}
+#maremma-review{
+	color:#616161;
+	font-size:13px;
+	font-family:'arial';
+	position:relative;
+	left:25px;
+	bottom:130px;
+}
+#maremma-price{
+	color:#820000;
+	font-size:20px;
+	font-family:'arial';
+	position:relative;
+	left:250px;
+	bottom:170px;
+	font-weight:bold;
+}
+
+.maremma-wine:hover{
+	box-shadow:0 2px 5px 0 #D3D3D3;
+	transition:0.3s;
+	transform:translateY(-10px);
+}
+.cantina-wine{
+	height:460px;
+	width:340px;
+	border-radius:5px;
+	border:1px solid #D3D3D3;
+	position:relative;
+	left:850px;
+	bottom:2040px;
+}
+#cantina-img{
+	height:230px;
+	width:340px;
+	border-radius:5px;
+	background-image:url("../image_folder/cantina.jpg");
+	background-size:cover;
+}
+.cantina-details{
+	position:relative;
+	bottom:30px;
+}
+#cantina-heading{
+	font-size:20px;
+	font-family:'DM sans';
+	font-weight:bold;
+	position:relative;
+	left:50px; 
+	bottom:35px;
+}
+#cantina-timeicon{
+	height:55px;
+	width:55px;
+	background-image:url("../image_folder/time.png");
+	background-size:cover;
+	position:relative;
+	left:10px;
+	bottom:15px;
+	
+}
+#cantina-calendar{
+	height:50px;
+	width:50px;
+	background-image:url("../image_folder/calendar.png");
+	background-size:cover;
+	position:relative;
+	left:10px;
+	bottom:50px;
+}
+#cantina-time{
+	color:#616161;
+	font-size:15px;
+	font-family:'arial';
+	position:relative;
+	left:60px;
+	bottom:130px;
+}
+
+#review3-star{
+	position:relative;
+	left:25px;
+	bottom:130px;
+}
+#cantina-review{
+	color:#616161;
+	font-size:13px;
+	font-family:'arial';
+	position:relative;
+	left:25px;
+	bottom:130px;
+}
+#cantina-price{
+	color:#820000;
+	font-size:20px;
+	font-family:'arial';
+	position:relative;
+	left:250px;
+	bottom:150px;
+	font-weight:bold;
+}
+
+.cantina-wine:hover{
+	box-shadow:0 2px 5px 0 #D3D3D3;
+	transition:0.3s;
+	transform:translateY(-10px);
+}
+/*popular-tours*/
+#popular-tours{
+	color:#616161;
+	font-size:13px;
+	font-family:'arial';
+	position:relative;
+	left:560px;
+	bottom:2000px;
+	font-size:15px;
+}
+.wine-tour-expertise{
+	height:580px;
+	width:1250px;
+	background-color:#F5FDFF;
+	position:relative;
+	bottom:1980px;
+}
+.wine-tour-details{
+	position:relative;
+	left:30px;
+}
+#tour-expertise-heading{
+	font-size:25px;
+	font-weight:bold;
+	font-family: 'DM sans';
+	position:relative;
+	left:40px;
+	top:60px;
+}
+.wine-details{
+	position:relative;
+	top:80px;
+	left:40px;
+}
+#wine-icon{
+	display:inline-block;
+	height:30px;
+	width:30px;
+	background-image:url("../image_folder/icon-SVC01.png");
+	background-size:cover;
+}
+#wine-text{
+	font-size:20px;
+	font-weight:bold;
+	font-family: 'DM sans';
+	display:inline-block;
+	color:#616161;
+	position:relative;
+	bottom:5px;
+	left:5px;
+}
+#wine-content{
+	color:#616161;
+	position:relative;
+	bottom:5px;
+}
+.napa-grape-varieties{
+	position:relative;
+	top:100px;
+	left:40px;
+}
+#napa-grape-icon{
+	display:inline-block;
+	height:30px;
+	width:30px;
+	background-image:url("../image_folder/icon-SVC02.png");
+	background-size:cover;
+}
+#napa-grape-text{
+	font-size:20px;
+	font-weight:bold;
+	font-family: 'DM sans';
+	display:inline-block;
+	color:#616161;
+	position:relative;
+	bottom:5px;
+	left:5px;
+}
+#napa-grape-content{
+	color:#616161;
+	position:relative;
+	bottom:5px;
+}
+.private-dining{
+	position:relative;
+	top:130px;
+	left:40px;
+}
+#dining-icon{
+	display:inline-block;
+	height:30px;
+	width:30px;
+	background-image:url("../image_folder/icon-SVC03.png");
+	background-size:cover;
+}
+#dining-text{
+	font-size:20px;
+	font-weight:bold;
+	font-family: 'DM sans';
+	display:inline-block;
+	color:#616161;
+	position:relative;
+	bottom:5px;
+	left:5px;
+}
+#dining-content{
+	color:#616161;
+	position:relative;
+	bottom:5px;
+}
+#wine-tour-expertise-img{
+	height:580px;
+	width:550px;
+	background-image:url("../image_folder/expertise.jpg");
+	background-size:cover;
+	position:relative;
+	left:700px;
+	bottom:391px;
+}
+/*wine-tokens*/
+.wine-token{
+	display:flex;
+	position:relative;
+	bottom:1930px;
+	left:80px;
+}
+#premium-token{
+	height:250px;
+	width:250px;
+	background-image:url("../image_folder/GLY01.jpg");
+	background-size:cover;
+	display:inline-block;
+}
+#quality-token{
+	height:250px;
+	width:250px;
+	background-image:url("../image_folder/GLY02.jpg");
+	background-size:cover;
+	display:inline-block;
+}
+#high-quality-token{
+	height:250px;
+	width:250px;
+	background-image:url("../image_folder/GLY03.jpg");
+	background-size:cover;
+	display:inline-block;
+}
+#natural-wine-token{
+	height:250px;
+	width:250px;
+	background-image:url("../image_folder/GLY04.jpg");
+	background-size:cover;
+	display:inline-block;
+}
+/*wine-shop-container*/
+.wine-shop-container{
+	height:700px;
+	width:1250px;
+	background-color:#F5FDFF;
+	position:relative;
+	bottom:1900px;
+}
+#view-shop-text{
+	color:#820000;
+	position:relative;
+	left:1030px;
+	top:60px;
+	font-weight:bold;
+}
+#wine-delivery-text{
+	position:relative;
+	left:40px;
+	top:60px;
+	font-weight:bold;
+	font-size:30px;
+}
+/*winery-shop-product*/
+.wine-shop-product{
+	position:relative;
+	bottom:2420px;
+	left:50px;
+}
+.grayson-wine-product{
+	height:460px;
+	width:340px;
+	box-shadow:0 2px 5px 0 #d3d3d3;
+	background-color:#fff;
+	border-radius:5px;
+}
+.grayson-wine-product:hover{
+	background-color:#fff;
+	transition:0.3s;
+	transform:translateY(-10px);
+}
+#grayson-image{
+	height:250px;
+	width:340px;
+	background-image:url("../image_folder/winery-product.jpg");
+	background-size:cover;
+	border-radius:5px;
+}
+.grayson-wine{
+	font-size:18px;
+	font-family:'DM sans';
+	font-weight:bold;
+	position:relative;
+	left:20px;
+}
+#grayson-content{
+	color:#616161;
+	font-weight:normal;
+	font-size:15px;
+}
+#grayson-add{
+	color:#820000;
+	font-size:15px;
+}
+#graysonline{
+	width:340px;
+	border:1px solid #D3D3D3;
+	position:relative;
+	right:20px;
+}
+#grayson-cost{
+	color:#820000;
+	font-size:18px;
+	font-weight:bold;
+	font-family:'DM sans';
+	position:relative;
+	left:260px;
+	bottom:5px;
+	
+}
+.mascota-wine-product{
+	height:460px;
+	width:340px;
+	box-shadow:0 2px 5px 0 #d3d3d3;
+	position:relative;
+	left:400px;
+	bottom:477px;
+	background-color:#fff;
+	border-radius:5px;
+}
+.mascota-wine-product:hover{
+	background-color:#fff;
+	transition:0.3s;
+	transform:translateY(-10px);
+}
+#mascota-image{
+	height:250px;
+	width:340px;
+	background-image:url("../image_folder/winery-product.jpg");
+	background-size:cover;
+	border-radius:5px;
+}
+.mascota-wine{
+	font-size:18px;
+	font-family:'DM sans';
+	font-weight:bold;
+	position:relative;
+	left:20px;
+}
+#mascota-content{
+	color:#616161;
+	font-weight:normal;
+	font-size:15px;
+}
+#mascota-add{
+	color:#820000;
+	font-size:15px;
+}
+#mascotaline{
+	width:340px;
+	border:1px solid #D3D3D3;
+	position:relative;
+	right:20px;
+}
+#mascota-cost{
+	color:#820000;
+	font-size:18px;
+	font-weight:bold;
+	font-family:'DM sans';
+	position:relative;
+	left:260px;
+	bottom:5px;
+	
+}
+.sauvignon-wine-product{
+	height:460px;
+	width:340px;
+	box-shadow:0 2px 5px 0 #d3d3d3;
+	position:relative;
+	left:800px;
+	bottom:953px;
+	background-color:#fff;
+	border-radius:5px;
+}
+.sauvignon-wine-product:hover{
+	background-color:#fff;
+	transition:0.3s;
+	transform:translateY(-10px);
+}
+#sauvignon-image{
+	height:250px;
+	width:340px;
+	background-image:url("../image_folder/winery-product.jpg");
+	background-size:cover;
+	border-radius:5px;
+}
+.sauvignon-wine{
+	font-size:18px;
+	font-family:'DM sans';
+	font-weight:bold;
+	position:relative;
+	left:20px;
+}
+#sauvignon-content{
+	color:#616161;
+	font-weight:normal;
+	font-size:15px;
+}
+#sauvignon-add{
+	color:#820000;
+	font-size:15px;
+}
+#sauvignonline{
+	width:340px;
+	border:1px solid #D3D3D3;
+	position:relative;
+	right:20px;
+}
+#sauvignon-cost{
+	color:#820000;
+	font-size:18px;
+	font-weight:bold;
+	font-family:'DM sans';
+	position:relative;
+	left:260px;
+	bottom:5px;
+}
+/*subscribers-section*/
+#wallpaper{
+	height:500px;
+	width:1250px;
+	background-image:url("../image_folder/wallpaper.jpg");
+	background-size:cover;
+	position:relative;
+	bottom:3250px;
+	
+}
+.subscribe-details{
+	position:relative;
+	bottom:3550px;
+	left:390px;
+}
+#newsletter{
+	font-size:15px;
+	position:relative;
+	left:130px;
+	top:15px;
+}
+#subscriber-maintext{
+	font-size:25px;
+	font-weight:bold;
+	font-family:'DM sans';
+}
+#email-box{
+	height:50px;
+	width:300px;
+	background-color:#fff;
+	color:#616161;
+	font-size:13px;
+	font-family:sans-serif;
+	line-height:50px;
+	position:relative;
+	left:40px;
+}
+#subscribe-btn{
+	height:50px;
+	width:130px;
+	background-color:#820000;
+	color:#fff;
+	text-align:center;
+	line-height:50px;
+	font-size:13px;
+	position:relative;
+	left:320px;
+	bottom:63px;
+	font-family:sans-serif;
+	font-weight:bold;
+}
+/*footer-tag*/
+/*footer-section*/
+.footer-container{
+	height:450px;
+	width:1250px;
+	background-color:#0C3B41;
+	position:absolute;
+	top:980%;
+	
+	
+}
+.travel-tour{
+	font-size:30px;
+	font-weight:bold;
+	color:#fff;
+	font-family:DM sans;
+	position:relative;
+	top:60px;
+	left:60px;
+}
+.travel-tour ul li{
+	list-style-type:none;
+	font-size:20px;
+	font-weight:normal;
+	line-height:35px;
+	position:relative;
+	right:35px;
+}
+#fb-circle{
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	border:1px solid #fff;
+	display:inline-block;
+}
+#twit-circle{
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	border:1px solid #fff;
+	display:inline-block;
+	position:relative;
+	left:20px;
+	
+	
+}
+#insta-circle{	
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	border:1px solid #fff;
+	display:inline-block;
+	position:relative;
+	left:40px;
+}
+.about-us{
+	font-size:30px;
+	font-weight:bold;
+	color:#fff;
+	font-family:DM sans;
+	position:relative;
+	left:380px;
+	bottom:235px;
+}
+.about-us ul li{
+	list-style-type:none;
+	font-size:20px;
+	font-weight:normal;
+	line-height:35px;
+	position:relative;
+	right:35px;
+}
+.support{
+	font-size:30px;
+	font-weight:bold;
+	color:#fff;
+	font-family:DM sans;
+	position:relative;
+	left:660px;
+	bottom:510px;
+}
+.support ul li{
+	list-style-type:none;
+	font-size:20px;
+	font-weight:normal;
+	line-height:35px;
+	position:relative;
+	right:35px;
+}
+.pay-safely{
+	font-size:28px;
+	font-weight:bold;
+	color:#fff;
+	font-family:DM sans;
+	position:relative;
+	left:900px;
+	bottom:780px;
+}
+#payment{
+	font-family:DM sans;
+	color:#fff;
+	font-size:18px;
+	font-weight:normal;
+	position:relative;
+	top:20px;
+	
+}
+#visa{
+	height:40px;
+	width:240px;
+	background-image:url("../image_folder/visa-logo.png");
+	background-size:cover;
+	position:relative;
+	top:20px;
+}
+#footer-text{
+	height:50px;
+	width:1250px;
+	background-color:#000;
+	font-family:DM sans;
+	color:#fff;
+	font-size:15px;
+	font-weight:normal;
+	text-align:center;
+	line-height:50px;
+	position:relative;
+	bottom:640px;
+}
